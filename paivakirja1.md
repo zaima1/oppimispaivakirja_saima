@@ -4,6 +4,7 @@ __Mikä osion tehtävissä oli vaikeaa ja mikä helppoa? Mikä auttoi minua oppi
 
 Kirjoita tähän vastauksesi
 Vaikeata oli päästä alkuun gitin kanssa. Vei paljon aikaa saada luotua ensimmäinen repositorio ja saada se toimimaan kunnolla. Helppoa oli saaada luotua txt tiedostot.
+git logissa kaikki näytti samalta 
 ## Osiossa käyttämäni Git-komennot
 
 mkdir git_saima luo repositorin
@@ -14,6 +15,8 @@ git mv hello.html index.html uudelleen nimeää tiedoston
 git rm test.txt -m "poistettu turha tiedosto"
 git log näyttää tekemät add 
 git status näyttää statuksen
+git reset --hard peruttaa työtilan muutokset
+git revert HEAD~1 peruin viimeisen git comitin
 
 
 | Komento | Kuvaus |
